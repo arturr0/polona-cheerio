@@ -109,7 +109,7 @@ async function main() {
               } else {
                 console.log(`Phrase "${title}" not found on page: ${result.link}`);
               }
-              await delay(2000); // Delay to avoid rate-limiting
+              await delay(5000); // Delay to avoid rate-limiting
             }
           }
         })
